@@ -211,3 +211,63 @@ img{
     right: -120px;
     display: none;
 }
+
+.food__type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.see__all{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.see__all_text{
+    font-size: 1.125rem;
+    color: var(--cl-yl);
+}
+
+.type__title{
+    color:  var(--cl-blvc);
+    font-size: 1.5rem;
+}
+
+.food__type_container{
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 50px;
+}
+
+.food__type_container::-webkit-scrollbar{
+    display: none;
+}
+
+.food-box{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+.food-box_title{
+    color: var(--cl-smoke);
+}
+
+.food-box_img{
+    
+}
+
+
+
