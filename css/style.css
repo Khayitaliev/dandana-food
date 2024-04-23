@@ -266,7 +266,8 @@ img{
 }
 
 .food-box_img{
-    
+    min-width: 116px;
+    height: 116px;
 }
 
 
