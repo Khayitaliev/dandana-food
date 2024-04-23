@@ -64,6 +64,13 @@
 body{
     font-family: 'Poppins',sans-serif;
 }
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .container{
     max-width: 1440px;
     margin: 0 auto;
@@ -88,6 +95,7 @@ body{
     display: block;
     cursor: pointer;
 }
+
 .burger-menu span{
     display: block;
     width: 30px;
@@ -105,9 +113,9 @@ body{
 }
 
 .header__brand{
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: var(--cl-blvc);
-    font-family: 'Segoe UI';
+    font-weight: 700;
 }
 
 .header__form{
@@ -127,7 +135,6 @@ body{
     left: 24px;
 }
 
-
 .form__input{
     width: 513px;
     border: none;
@@ -140,11 +147,67 @@ body{
 
 .hero{
     background: var(--cl-yl);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    padding: 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
+.hero__content{
+    padding: 3rem;
+    flex-basis: 600px;
+}
+
+.hero__title{
+    font-size: 2rem;
+    max-width: 385px;
+}
+
+.hero__text{
+    font-size: 0.875rem;
+    line-height: 24px;
+}
+
+.hero__text,
+.hero__title{
+    color: var(--cl-white);
+}
+
+.hero_banner img{
+    width: 500px;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+
+
+.ellipse{
+    position: absolute;
+    z-index: 2;
+}
+
+.ellipse-1{
+    bottom: -150px;
+    left: -100px;
+}
+
+.ellipse-2{
+    top: -170px;
+    right: 170px;
+    display: none;
+}
+
+.ellipse-3{
+    bottom: -120px;
+    right: -120px;
+    display: none;
+}
