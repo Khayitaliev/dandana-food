@@ -1,0 +1,150 @@
+/* Google Fonts */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/Segoe\ UI\ Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Variables */
+:root{
+--cl-yl:#F8B602;
+--cl-white:#fff;
+--cl-blvc:#2E2E2E;
+--cl-smoke:#A098AE;
+--cl-green:#10C92D;
+--cl-grey:#979797;
+--cl-red:#EB5757;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.brand__inner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.burger-menu{
+    display: block;
+    cursor: pointer;
+}
+.burger-menu span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--cl-yl);
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+
+.burger-menu span:nth-child(2){
+    margin: 5px 0;
+}
+
+.header__brand{
+    font-size: 2.25rem;
+    color: var(--cl-blvc);
+    font-family: 'Segoe UI';
+}
+
+.header__form{
+    position: relative;
+}
+
+.form__button{
+    display: block;
+    background-image: url(../images/icons/search-icon.svg);
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: calc(50% - 10px );
+    left: 24px;
+}
+
+
+.form__input{
+    width: 513px;
+    border: none;
+    padding: 16px 118px 16px 64px;
+}
+
+.form__input:focus{
+    outline: none;
+}
+
+.hero{
+    background: var(--cl-yl);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 3rem;
+}
+
