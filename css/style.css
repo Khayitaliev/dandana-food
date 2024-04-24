@@ -180,26 +180,26 @@ img{
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     overflow: hidden;
-    gap: 20px;
     background-image: url('../images/bg-img.png');
     background-repeat: no-repeat;
     background-position: right -120px center;
     background-size: 600px;
 }
 
+.hero__inner{
+    padding: 43px 0 37px 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
 .ellipse{
     position: absolute;
     bottom: -200px;
     left: -120px;
-}
-
-.hero__content{
-    flex-basis: 500px;
-    padding: 40px 0 50px 40px ;
 }
 
 .hero__title{
@@ -210,6 +210,7 @@ img{
 .hero__text{
     font-size:0.875rem ;
     max-width: 480px;
+    line-height: 20px;
 }
 
 .hero__banner{

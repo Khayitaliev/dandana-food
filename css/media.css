@@ -25,8 +25,38 @@
     width: 100%;
     justify-content: space-between;
    }
+    .hero__wrapper{
+        height: 300px;
+    }
+    .hero__inner{
+        padding: 20px 0 25px 30px;
+    }
+    .hero__title{
+        font-size: 1.5rem;
+    }
+    .hero__text{
+        font-size: 0.8rem;
+        max-width: 300px;
+    }
+
 }
 
+
+@media (max-width:620px) {
+    .hero__title{
+        font-size: 1.25rem;
+    }
+    .hero__text{
+        font-size: 0.625rem;
+        max-width: 190px;
+    }   
+    .hero__inner{
+        padding: 15px 0 20px 25px;
+    }
+    .hero__wrapper{
+        background-position: right -270px center;
+    }
+}
 @media (max-width:550px) {
     .types_title{
         font-size: 1.2rem;
