@@ -108,7 +108,9 @@ img{
 .burger-menu,
 .form__btn,
 .see__all_box,
-.card__box{
+.card__box,
+.card__discount,
+.card__add_btn{
     cursor: pointer;
 }
 
@@ -222,7 +224,9 @@ img{
 }
 
 .hero__text,
-.hero__title{
+.hero__title,
+.card__discount,
+.card__add_btn{
     color: var(--cl-white);
 }
 
@@ -233,7 +237,7 @@ img{
 }
 
 .food__types__inner{
-    margin: 25px 0;
+    margin: 30px 0;
 }
 
 .types_title{
@@ -309,5 +313,82 @@ img{
     font-size: 1rem;
     color: var(--cl-smoke);
     font-weight: 400;
+}
+
+.food__cards_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.food__card{
+    width: 336px;
+    position: relative;
+    padding: 32px;
+}
+
+.card__discount{
+    background-color: var(--cl-red);
+    padding: 7px 17px;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+.food-card__image{
+   min-width: 270px;
+    height: auto;
+}
+.card__stars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    margin: 20px 0 15px;
+}
+
+.card__add_btn{
+    width: 48px;
+    height: 48px;
+    background-color: var(--cl-yl);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.card__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food__card_title{
+    font-size: 1rem;
+    color: var(--cl-blvc);
+    font-weight: 500;
+}
+
+.food__card_price{
+    color: var(--cl-yl);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card__text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
