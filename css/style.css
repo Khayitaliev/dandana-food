@@ -280,6 +280,7 @@ img{
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     gap: 50px;
+    margin: 25px 0;
 }
 
 .food__scroll_container::-webkit-scrollbar{
