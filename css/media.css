@@ -7,6 +7,13 @@
     }
 }
 
+@media (max-width:950px) {
+    .hero__wrapper{
+        background-size: 500px;
+        background-position: right -200px center;
+    }
+}
+
 @media (max-width:800px) {
    .form__wrapper{
     display: none;
@@ -18,4 +25,13 @@
     width: 100%;
     justify-content: space-between;
    }
+}
+
+@media (max-width:550px) {
+    .types_title{
+        font-size: 1.2rem;
+    }
+    .types__see-all{
+        font-size: 1rem;
+    }
 }

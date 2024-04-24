@@ -184,29 +184,17 @@ img{
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    gap: 20px;
+    background-image: url('../images/bg-img.png');
+    background-repeat: no-repeat;
+    background-position: right -120px center;
+    background-size: 600px;
 }
 
 .ellipse{
     position: absolute;
-}
-
-.ellipse-1{
-    bottom: -150px;
+    bottom: -200px;
     left: -120px;
-}
-
-.ellipse-2{
-    top: -170px;
-    right: 170px;
-}
-
-.ellipse-3{
-    bottom: -120px;
-    right: -120px;
-}
-
-.ellipse-2,.ellipse-3{
-    display: none;
 }
 
 .hero__content{
@@ -215,11 +203,13 @@ img{
 }
 
 .hero__title{
-    font-size: 2rem
+    font-size: 2rem;
+    max-width: 385px;
 }
 
 .hero__text{
     font-size:0.875rem ;
+    max-width: 480px;
 }
 
 .hero__banner{
