@@ -266,7 +266,8 @@ img{
     -o-transform: scaleX(0);
 }
 
-.types__see-all:hover::before{
+.types__see-all:hover::before,
+.types__see-all:active::before{
     transform: scaleX(1);
     -webkit-transform: scaleX(1);
     -moz-transform: scaleX(1);
