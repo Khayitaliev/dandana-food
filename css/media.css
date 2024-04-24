@@ -25,9 +25,6 @@
     width: 100%;
     justify-content: space-between;
    }
-    .hero__wrapper{
-        height: 300px;
-    }
     .hero__inner{
         padding: 20px 0 25px 30px;
     }
@@ -43,18 +40,28 @@
 
 
 @media (max-width:620px) {
-    .hero__title{
-        font-size: 1.25rem;
-    }
     .hero__text{
-        font-size: 0.625rem;
-        max-width: 190px;
+        font-size: 0.8rem;
+        font-weight: 500;
     }   
     .hero__inner{
         padding: 15px 0 20px 25px;
     }
     .hero__wrapper{
-        background-position: right -270px center;
+        background-position: right -300px center;
+    }
+}
+
+@media (max-width:500px) {
+    .hero__wrapper{
+        height: 240px;
+    }
+    .hero__title{
+        font-size: 1.25rem;
+    }
+    .hero__text{
+        font-size: 0.7rem;
+        max-width: 160px;
     }
 }
 @media (max-width:550px) {
