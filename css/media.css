@@ -1,0 +1,21 @@
+@media (max-width:950px) {
+    .header__brand{
+        font-size: 1.5rem;
+    }
+    .brand__inner{
+        gap: 20px;
+    }
+}
+
+@media (max-width:800px) {
+   .form__wrapper{
+    display: none;
+   }
+   .form__search{
+    display: block;
+   }
+   .brand__inner{
+    width: 100%;
+    justify-content: space-between;
+   }
+}

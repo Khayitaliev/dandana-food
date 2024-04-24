@@ -139,7 +139,7 @@ img{
     position: relative;
 }
 
-.form__btn{
+.form__button{
     display: block;
     width: 24px;
     height: 24px;
@@ -147,6 +147,9 @@ img{
     background-repeat: no-repeat;
     background-color: transparent;
     border: none; 
+}
+
+.form__btn{
     position: absolute;
     top: calc(50% - 10px);
     left: 25px;
@@ -156,12 +159,17 @@ img{
     width: 500px;
     padding: 16px 110px 16px 65px;
     border: none;
-
 }
+
 
 .form__input:focus{
     outline: none;
 }
+
+.form__search{
+    display: none;
+}
+
 
 
 .hero__wrapper{
