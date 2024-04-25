@@ -341,15 +341,21 @@ img{
     align-items: center;
 }
 
+.card__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 .food__card_title{
-    font-size:   1.125rem;
+    font-size: clamp(0.813rem,3vw,1.2rem);
     color: var(--cl-blvc);
     font-weight: 550;
-    margin-bottom: 6px;
 }
 
 .food__card_price{
-    font-size: 1.5rem;
+    font-size: clamp(1rem,3vw,1.5rem);
     color: var(--cl-yl);
     font-weight: 600;
 }
