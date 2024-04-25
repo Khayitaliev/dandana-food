@@ -40,5 +40,8 @@
     .card__banner{
         width: 200px;
     }
+    .card__add_btn{
+        padding: 20px;
+    }
 
 }
