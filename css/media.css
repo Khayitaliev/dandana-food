@@ -28,4 +28,7 @@
         font-weight: 550;
         line-height: 20px;
     }
+    .food__icon{
+        max-width: 70px;
+    }
 }
