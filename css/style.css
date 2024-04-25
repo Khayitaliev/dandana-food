@@ -190,7 +190,7 @@ img{
 }
 
 .hero__text{
-    font-size: clamp(0.625rem,2vw,0.875rem);
+    font-size: clamp(0.75rem,2vw,0.875rem);
     max-width: 480px;
     line-height: 24px;
 }
