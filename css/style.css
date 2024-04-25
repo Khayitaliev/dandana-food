@@ -296,9 +296,17 @@ img{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
+
+.food__cards_wrapper::-webkit-scrollbar{
+    display: none;
+}
+
 .food__card{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
     position: relative;
     padding: 32px;
     width:330px ;
@@ -332,6 +340,7 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+
 .food__card_title{
     font-size:   1.125rem;
     color: var(--cl-blvc);
