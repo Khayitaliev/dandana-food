@@ -34,4 +34,11 @@
     .types__container{
         gap: 20px;
     }
+    .food__card{
+        width: 250px;
+    }
+    .card__banner{
+        width: 200px;
+    }
+
 }
