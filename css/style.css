@@ -167,6 +167,7 @@ img{
     background-image: url('../images/bg-img.png');
     background-repeat: no-repeat;
     background-position: right -150px center;
+    background-size: 600px;
 }
 
 .shape{
@@ -189,7 +190,7 @@ img{
 }
 
 .hero__text{
-    font-size: clamp(0.625rem,3vw,0.875rem);
+    font-size: clamp(0.625rem,2vw,0.875rem);
     max-width: 480px;
     line-height: 24px;
 }

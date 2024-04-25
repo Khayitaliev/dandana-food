@@ -11,16 +11,19 @@
         display: block;
     }
     .hero__wrapper{
-        background-position: right -280px center;
+        background-position: right -180px center;
     }
     .hero__text{
-        max-width: 200px;
+        max-width: 300px;
     }
 }
 
 @media (max-width:650px) {
     .hero__wrapper{
-        background-position: right -420px center;
+        background-position: right -350px center;
         padding: 15px 0 15px 30px;
+    }
+    .hero__text{
+        max-width: 200px;
     }
 }
