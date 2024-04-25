@@ -43,5 +43,8 @@
     .card__add_btn{
         padding: 20px;
     }
+    .food__cards_wrapper{
+        gap: 5px;
+    }
 
 }
