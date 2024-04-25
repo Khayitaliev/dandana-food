@@ -29,6 +29,9 @@
         line-height: 20px;
     }
     .food__icon{
-        max-width: 70px;
+        width: 70px;
+    }
+    .types__container{
+        gap: 20px;
     }
 }
