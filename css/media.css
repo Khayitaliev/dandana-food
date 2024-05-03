@@ -32,7 +32,8 @@
         max-width: 300px;
     }
     .hero__wrapper{
-        background-position: right -300px center,left -120px bottom -200px;
+        background-position: right -100px center,left -120px bottom -200px;
+        background-size: 400px,auto;
     }
 }
 
@@ -42,7 +43,14 @@
     }
     .hero__wrapper{
         padding: 15px 0 15px 20px;
-        background-position: right -400px center,left -120px bottom -200px;
+        background-position: right -100px center,left -120px bottom -200px;
     }
 }
-padding: 43px 0 37px 52px;
+
+@media (max-width:480px) {
+    .hero__wrapper{
+        background-position: right -200px center,left -120px bottom -200px;
+    }
+}
+
+

@@ -159,9 +159,11 @@ img{
 .hero__wrapper{
     background-image: url('../images/bg-img.png'),
                     url('../images/ellipse.png');
+    background-size: 700px  ,auto ;
     background-repeat: no-repeat;
     background-position: right -150px center,
                         left -120px bottom -160px;
+   
 }
 
 .hero__title,
