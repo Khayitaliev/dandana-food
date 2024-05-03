@@ -156,6 +156,13 @@ img{
     padding: 43px 0 37px 52px;
 }
 
+.hero__wrapper{
+    background-image: url('../images/bg-img.png'),
+                    url('../images/ellipse.png');
+    background-repeat: no-repeat;
+    background-position: right -150px center,
+                        left -120px bottom -160px;
+}
 .hero__title,
 .hero__text{
     color: var(--cl-white);
@@ -164,4 +171,10 @@ img{
 .hero__title{
     font-size: clamp(1.25rem,3vw,2rem);
     font-weight: 700;
+}
+
+.hero__text{
+    font-size:clamp(0.75rem,3vw,0.875rem);
+    line-height: clamp(14px,3vw,24px);
+    max-width: 480px;
 }
