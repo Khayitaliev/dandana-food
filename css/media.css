@@ -9,6 +9,9 @@
 }
 
 @media (max-width:850px) {
+    .brand__inner{
+        gap: 0;
+    }
     .form__wrapper{
         display: none;
     }
