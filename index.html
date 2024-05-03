@@ -24,18 +24,22 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <!-- Brand -->
-                    <a href="#" class="header__brand">Salom, mehmon!</a>
-                    <!-- Search -->
-                    <button class="form__button brand__btn"></button>
+                    <!-- Header Brand -->
+                    <a href="#" class="header__brand">Salom, mehmon !</a>
+                    <!-- Search Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="search__button brand__btn">
+                        <path d="M23.414 20.586L18.337 15.509C19.386 13.928 20 12.035 20 10C20 4.486 15.514 0 10 0C4.486 0 0 4.486 0 10C0 15.514 4.486 20 10 20C12.035 20 13.928 19.386 15.509 18.337L20.586 23.414C21.366 24.195 22.634 24.195 23.414 23.414C24.195 22.633 24.195 21.367 23.414 20.586ZM3 10C3 6.14 6.14 3 10 3C13.86 3 17 6.14 17 10C17 13.86 13.86 17 10 17C6.14 17 3 13.86 3 10Z" fill="#F8B602"/>
+                    </svg >  
                 </div>
-                <!-- Form -->
+                <!-- Form Wrapper -->
                 <div class="form__wrapper">
                     <form action="#" method="get">
-                        <!-- Search Button -->
-                        <button class="form__button form__btn"></button>
-                        <!-- Search Bar -->
-                        <input type="search" placeholder="Bugun qanday taom ta’tib ko’ramiz ?" class="form__input">
+                        <!-- Search button -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="search__button form__btn">
+                            <path d="M23.414 20.586L18.337 15.509C19.386 13.928 20 12.035 20 10C20 4.486 15.514 0 10 0C4.486 0 0 4.486 0 10C0 15.514 4.486 20 10 20C12.035 20 13.928 19.386 15.509 18.337L20.586 23.414C21.366 24.195 22.634 24.195 23.414 23.414C24.195 22.633 24.195 21.367 23.414 20.586ZM3 10C3 6.14 6.14 3 10 3C13.86 3 17 6.14 17 10C17 13.86 13.86 17 10 17C6.14 17 3 13.86 3 10Z" fill="#F8B602"/>
+                        </svg>
+                        <!-- Input-->
+                        <input type="search" class="form__input" placeholder="Bugun qanday taom ta’tib ko’ramiz ?">   
                     </form>
                 </div>
             </div>
@@ -47,353 +51,16 @@
     <main>
         <div class="container">
             <!-- Hero -->
-            <section class="hero__wrapper">
-                <!-- Shapes -->
-                <img src="./images/ellipse.png" alt="shape" class="shape shape-1">
-                <!-- <img src="./images/ellipse.png" alt="shape" class="shape shape-2">
-                <img src="./images/ellipse.png" alt="shape" class="shape shape-3"> -->
+            <div class="hero__wrapper">
                 <!-- Hero Title -->
-                <h1 class="hero__title">Barcha hamrli ovqatlar <br>
-                    uchun CHEGIRMA !</h1>
+                <h1 class="hero__title">Barcha hamrli ovqatlar <br>uchun CHEGIRMA !</h1>
                 <!-- Hero Text -->
                 <p class="hero__text">Lag’mon, Ayrimsay, Chuchvara va Manpar taomlari uchun 15% gacha chegirmalar shu oyning 25-sanasiga qadar mavjud.</p>
-            </section>
+            </div>
             <!-- /End Hero -->
-
-            <!-- Food Types -->
-            <section class="food___types">
-                <!-- Types inner -->
-                <div class="types__inner">
-                    <!-- Types Title -->
-                    <h3 class="types__title">Ovqat turlari</h3>
-                    <!-- See all -->
-                    <a href="#" class="see__all">
-                        <!-- Text -->
-                        <span class="see__all_text">Barchasini ko'rish</span>
-                        <!-- Icon -->
-                        <img src="./images/icons/next-btn.svg" alt="next-icon">
-                    </a>
-                </div>
-                <!-- Scroll Types -->
-                <div class="types__container">
-                    <!-- Food Types Box -->
-                    <div class="food__types_box">
-                        <!-- Image -->
-                        <img src="./images/icons/FriedRice.svg" alt="icon" class="food__icon">
-                        <span class="food__title">Qo'yiq</span>
-                    </div>
-
-                    <!-- Food Types Box -->
-                    <div class="food__types_box">
-                        <!-- Image -->
-                        <img src="./images/icons/soup.svg" alt="icon" class="food__icon">
-                        <span class="food__title">Suyuq</span>
-                    </div>
-
-                    <!-- Food Types Box -->
-                    <div class="food__types_box">
-                        <!-- Image -->
-                        <img src="./images/icons/food-2.svg" alt="icon" class="food__icon">
-                        <span class="food__title">Hamrli</span>
-                    </div>
-
-                    <!-- Food Types Box -->
-                    <div class="food__types_box">
-                        <!-- Image -->
-                        <img src="./images/icons/Satay2.svg" alt="icon" class="food__icon">
-                        <span class="food__title">Shashliklar</span>
-                    </div>
-                    
-                    <!-- Food Types Box -->
-                    <div class="food__types_box">
-                        <!-- Image -->
-                        <img src="./images/icons/Salad2.svg" alt="icon" class="food__icon">
-                        <span class="food__title">Salatlar</span>
-                    </div>
-
-                    <!-- Food Types Box -->
-                    <div class="food__types_box">
-                        <!-- Image -->
-                        <img src="./images/icons/Sake1.svg" alt="icon" class="food__icon">
-                        <span class="food__title">Ichimliklar</span>
-                    </div>
-                </div>
-            </section>
-            <!-- /End Food Types -->
-
-            <!-- Food Cards -->
-            <section class="food__cards">
-                <!-- Types inner -->
-                <div class="types__inner">
-                    <!-- Types Title -->
-                    <h3 class="types__title">Mashhur taomlarimiz</h3>
-                    <!-- See all -->
-                    <a href="#" class="see__all">
-                        <!-- Text -->
-                        <span class="see__all_text">Barchasini ko'rish</span>
-                        <!-- Icon -->
-                        <img src="./images/icons/next-btn.svg" alt="next-icon">
-                    </a>
-                </div>
-                <!-- Food Cards -->
-                <div class="food__cards_wrapper">
-                    <!-- Food Cards -->
-                    <div class="food__card">
-                        <!-- Card Discount -->
-                        <span class="card__discount">15% Off</span>
-                        <!-- Image -->
-                        <img src="./images/foods-image/burger-1.png" alt="burger" class="card__banner">
-                        <!-- Card Stars -->
-                        <div class="card__stars">
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-                        </div>
-                        <!-- Card Content -->
-                        <div class="card__content">
-                            <!-- Card Text -->
-                            <div class="card__text">
-                                <!-- Title -->
-                                <h3 class="food__card_title">Baliqli Burger</h3>
-                                <!-- Price -->
-                                <span class="food__card_price">25.000</span>
-                            </div>
-                            <!-- Card add Button -->
-                            <div class="card__add_btn">
-                                <span>+</span>
-                            </div>
-                        </div>
-                    </div>
-
-                     <!-- Food Cards -->
-                     <div class="food__card">
-                        <!-- Card Discount -->
-                        <span class="card__discount">15% Off</span>
-                        <!-- Image -->
-                        <img src="./images/foods-image/burger-2.png" alt="burger" class="card__banner">
-                        <!-- Card Stars -->
-                        <div class="card__stars">
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-                        </div>
-                        <!-- Card Content -->
-                        <div class="card__content">
-                            <!-- Card Text -->
-                            <div class="card__text">
-                                <!-- Title -->
-                                <h3 class="food__card_title">Go’shtli Burger</h3>
-                                <!-- Price -->
-                                <span class="food__card_price">30.000</span>
-                            </div>
-                            <!-- Card add Button -->
-                            <div class="card__add_btn">
-                                <span>+</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Food Cards -->
-                    <div class="food__card">
-                        <!-- Card Discount -->
-                        <span class="card__discount">15% Off</span>
-                        <!-- Image -->
-                        <img src="./images/foods-image/burger-3.png" alt="burger" class="card__banner">
-                        <!-- Card Stars -->
-                        <div class="card__stars">
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-                        </div>
-                        <!-- Card Content -->
-                        <div class="card__content">
-                            <!-- Card Text -->
-                            <div class="card__text">
-                                <!-- Title -->
-                                <h3 class="food__card_title">Pishloqli  Burger</h3>
-                                <!-- Price -->
-                                <span class="food__card_price">25.000</span>
-                            </div>
-                            <!-- Card add Button -->
-                            <div class="card__add_btn">
-                                <span>+</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-            </section>
-
-            <!-- Next -->
-
-              <!-- Food Cards -->
-              <section class="food__cards">
-                <!-- Types inner -->
-                <div class="types__inner">
-                    <!-- Types Title -->
-                    <h3 class="types__title">Menyu durdonalari</h3>
-                    <!-- See all -->
-                    <a href="#" class="see__all">
-                        <!-- Text -->
-                        <span class="see__all_text">Barchasini ko'rish</span>
-                        <!-- Icon -->
-                        <img src="./images/icons/next-btn.svg" alt="next-icon">
-                    </a>
-                </div>
-                <!-- Food Cards -->
-                <div class="food__cards_wrapper">
-                    <!-- Food Cards -->
-                    <div class="food__card">
-                        <!-- Image -->
-                        <img src="./images/foods-image/lagmon.png" alt="burger" class="card__banner">
-                        <!-- Card Stars -->
-                        <div class="card__stars">
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-                        </div>
-                        <!-- Card Content -->
-                        <div class="card__content">
-                            <!-- Card Text -->
-                            <div class="card__text">
-                                <!-- Title -->
-                                <h3 class="food__card_title"> Uyg’ur Lag’mon</h3>
-                                <!-- Price -->
-                                <span class="food__card_price">25.000</span>
-                            </div>
-                            <!-- Card add Button -->
-                            <div class="card__add_btn">
-                                <span>+</span>
-                            </div>
-                        </div>
-                    </div>
-
-                     <!-- Food Cards -->
-                     <div class="food__card">
-                        <!-- Image -->
-                        <img src="./images/foods-image/lagmon.png" alt="burger" class="card__banner">
-                        <!-- Card Stars -->
-                        <div class="card__stars">
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-                        </div>
-                        <!-- Card Content -->
-                        <div class="card__content">
-                            <!-- Card Text -->
-                            <div class="card__text">
-                                <!-- Title -->
-                                <h3 class="food__card_title">Uyg’ur Lag’mon</h3>
-                                <!-- Price -->
-                                <span class="food__card_price">25.000</span>
-                            </div>
-                            <!-- Card add Button -->
-                            <div class="card__add_btn">
-                                <span>+</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Food Cards -->
-                    <div class="food__card">
-                        <!-- Image -->
-                        <img src="./images/foods-image/lagmon.png" alt="burger" class="card__banner">
-                        <!-- Card Stars -->
-                        <div class="card__stars">
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-
-                            <!-- Star-->
-                            <img src="./images/star.svg" alt="star">
-                        </div>
-                        <!-- Card Content -->
-                        <div class="card__content">
-                            <!-- Card Text -->
-                            <div class="card__text">
-                                <!-- Title -->
-                                <h3 class="food__card_title"> Uyg’ur Lag’mon</h3>
-                                <!-- Price -->
-                                <span class="food__card_price">25.000</span>
-                            </div>
-                            <!-- Card add Button -->
-                            <div class="card__add_btn">
-                                <span>+</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-            </section>
-
-
-            
-
-            
         </div>
     </main>
-    <!-- End Main -->
+    <!-- /End Main -->
     <!-- JS -->
     <script src="js/main.js"></script>
 </body>
