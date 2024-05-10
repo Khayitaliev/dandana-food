@@ -60,6 +60,9 @@
     .types__inner{
         margin: 11px 0;
     }
+    .see__all_text::before{
+        top: 20px;
+    }
 
 }
 

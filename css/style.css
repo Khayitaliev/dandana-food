@@ -197,6 +197,7 @@ img{
 }
 .types__text{
     font-size: clamp(1rem,3vw,1.5rem);
+    font-weight: 700;
 }
 
 .see__all_text{
