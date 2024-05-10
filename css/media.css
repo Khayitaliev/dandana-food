@@ -63,6 +63,9 @@
     .see__all_text::before{
         top: 20px;
     }
+    .food__types__slider{
+        margin: 10px 0;
+    }
 
 }
 
