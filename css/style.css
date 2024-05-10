@@ -273,3 +273,97 @@ img{
 .food__type_card:hover .type__card_title{
     color: var(--cl-yl);
 }
+
+.food__cards_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.food__cards_wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.food__card{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    position: relative;
+    padding: 32px;
+    width:330px ;
+}
+
+.card__discount{
+    position: absolute;
+    background-color: var(--cl-red);
+    padding: 5px 20px;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    -ms-border-radius: 0 8px 8px 0;
+    -o-border-radius: 0 8px 8px 0;
+    color: var(--cl-white);
+    font-size: 1.125rem;
+    left: 0;
+    top: 30px;
+}
+
+.card__stars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin: 25px 0 8px 0;
+}
+
+.card__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.food__card_title{
+    font-size: clamp(0.813rem,3vw,1.2rem);
+    color: var(--cl-blvc);
+    font-weight: 550;
+}
+
+.food__card_price{
+    font-size: clamp(1rem,3vw,1.5rem);
+    color: var(--cl-yl);
+    font-weight: 600;
+}
+
+.card__add_btn{
+    width: 24px ;
+    height: 24px;
+    padding: 24px;
+    background-color: var(--cl-yl);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card__add_btn span{
+    font-size: 1.5rem;
+    color:var(--cl-white);
+}
+
+.card__banner{
+    width: 270px;
+}

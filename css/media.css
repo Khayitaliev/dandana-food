@@ -40,6 +40,25 @@
     }
 }
 
+@media (max-width:650px) {
+    .food__icon{
+        width: 70px;
+    }
+    .types__container{
+        gap: 20px;
+    }
+    .food__card{
+        width: 250px;
+    }
+    .card__banner{
+        width: 200px;
+    }
+    .card__add_btn{
+        padding: 20px;
+    }
+
+}
+
 @media (max-width:600px) {
     .hero__text{
         max-width: 190px;
