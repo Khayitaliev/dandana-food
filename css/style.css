@@ -197,40 +197,37 @@ img{
     font-size: clamp(1rem,3vw,1.5rem);
 }
 
-.see__all_title{
+.see__all_text{
     font-size: clamp(0.875rem,2vw,1.125rem);
     font-weight: 400;
     position: relative;
 }
 
-.see__all_title{
+.see__all_text{
     color: var(--cl-yl);
 }
 
-.see__all_title{
-    position: relative;
-}
-
-.see__all_title::before{
+.see__all_text::before{
     content: '';
-    position: absolute;
     width: 100%;
     height: 2px;
-    top: 24px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 16px;
+    background-color: var(--cl-yl);
+    position: absolute;
+    top: 23px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transform-origin: left;
     transform: scaleX(0);
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
     -ms-transform: scaleX(0);
     -o-transform: scaleX(0);
-    transform-origin: left;
 }
 
-.see__all_title:hover::before{
+.see__all_text:hover::before{
     transform: scaleX(1);
     -webkit-transform: scaleX(1);
     -moz-transform: scaleX(1);
