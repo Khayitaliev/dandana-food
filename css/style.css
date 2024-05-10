@@ -117,7 +117,9 @@ img{
 }
 
 .burger-menu,
-.search__button{
+.search__button,
+.see__all,
+.food__type_card{
     cursor: pointer;
 }
 
@@ -241,7 +243,7 @@ img{
     align-items: center;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 1rem;
+    gap: 0 1rem;
 }
 
 .food__types__slider::-webkit-scrollbar{
@@ -266,6 +268,6 @@ img{
     font-size: clamp(0.8rem,3vw,1.1rem);
 }
 
-
-
-
+.food__type_card:hover .type__card_title{
+    color: var(--cl-yl);
+}
