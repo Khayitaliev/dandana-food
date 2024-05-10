@@ -207,24 +207,27 @@ img{
     color: var(--cl-yl);
 }
 
+.see__all_title{
+    position: relative;
+}
+
 .see__all_title::before{
-    display: block;
     content: '';
     position: absolute;
     width: 100%;
     height: 2px;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    top: 22px;
-    transform-origin: left;
+    top: 24px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     transform: scaleX(0);
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
     -ms-transform: scaleX(0);
     -o-transform: scaleX(0);
+    transform-origin: left;
 }
 
 .see__all_title:hover::before{
