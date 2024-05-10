@@ -54,6 +54,9 @@
     .hero__wrapper{
         background-position: right -200px center,left -120px bottom -200px;
     }
+    .food__type_card svg{
+        width: 70px;
+    }
 }
 
 

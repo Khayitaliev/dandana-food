@@ -237,9 +237,10 @@ img{
 
 .food__types__slider{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -247,21 +248,22 @@ img{
     display: none;
 }
 .food__type_card{
-    min-width: 160px;
     text-align: center;
-    scroll-snap-align: var(--cl-red);
+    scroll-snap-align:center;
     scroll-snap-stop: always;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px 0;
 }
 
+.food__type_card svg{
+    width: 106px;
+}
 .type__card_title{
     color: var(--cl-smoke);
     font-weight: 400;
-    font-size: 18px;
+    font-size: clamp(0.8rem,3vw,1.1rem);
 }
 
 
