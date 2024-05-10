@@ -57,6 +57,10 @@
     .food__type_card svg{
         width: 70px;
     }
+    .types__inner{
+        margin: 11px 0;
+    }
+
 }
 
 

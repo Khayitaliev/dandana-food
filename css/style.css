@@ -67,7 +67,7 @@ img{
 }
 
 .header__wrapper,
-.food__types{
+.types__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,7 +122,7 @@ img{
 }
 
 .header__brand,
-.food__type{
+.types__text{
     color: var(--cl-blvc);
 }
 
@@ -189,11 +189,11 @@ img{
     font-weight: 500;
 }
 
-.see__all{
+
+.types__inner{
     margin: 24px 0;
 }
-
-.food__type{
+.types__text{
     font-size: clamp(1rem,3vw,1.5rem);
 }
 
